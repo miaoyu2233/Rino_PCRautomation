@@ -1,0 +1,35 @@
+{
+    "StartUpAndClickButton": {
+        "next": [
+            "Click_Button",
+            "Flag_NoButton"
+        ],
+        "interrupt": [
+            "Sub_StartUp"
+        ]
+    },
+    "Sub_StartUp": {
+        "next": [
+            "Flag_InApp"
+        ],
+        "interrupt": [
+            "Sub_StartUp"
+        ]
+    },
+    "Sub_StartApp": {
+        "action": "StartApp"
+    },
+    "Flag_InApp": {
+        "recognition": "TemplateMatch",
+        "template": "App.png"
+    },
+    "Flag_NoButton": {
+        "recognition": "OCR",
+        "expected": "NoButton"
+    },
+    "Click_Button": {
+        "recognition": "OCR",
+        "expected": "Button",
+        "action": "Click"
+    }
+}
