@@ -1,0 +1,23 @@
+{
+	"竞技场4":{
+		"post_delay":3200,
+		"timeout":60000,
+		"next":[
+			"开始jjc循环"
+		]
+	},
+	"开始jjc循环":{
+		"times_limit":4,
+		"is_sub":true,
+		"post_delay":360000,
+		"next":[
+			"竞技场"
+		],
+		"runout_next":[
+			"完成jjc循环"
+		]
+	},
+	"完成jjc循环":{
+		"action":"StopTask"
+	}
+}

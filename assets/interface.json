@@ -1,0 +1,2931 @@
+{
+    "controller": [
+        {
+            "name": "模拟器Adb端",
+            "type": "Adb"
+        },
+        {
+            "name": "桌面端DMM",
+            "type": "Win32",
+            "win32": {
+                "class_regex": ".*",
+                "window_regex": "Visual Studio"
+            }
+        }
+    ],
+    "resource": [
+        {
+            "name": "璃乃版",
+            "path": [
+                "{PROJECT_DIR}/resource/base"
+            ]
+        }
+    ],
+    "task": [
+        {
+            "name": "加速器加速PCR",
+            "entry": "打开加速器加速PCR",
+            "option": [
+                "选择加速器"
+            ]
+        },
+        {
+            "name": "启动游戏(J)",
+            "entry": "启动游戏",
+            "option": [
+                "选择服务器"
+            ]
+        },
+        {
+            "name": "行程表/日程表(J)",
+            "entry": "行程表",
+            "option": [
+                "是否消耗宝石买mana"
+            ]
+        },
+        {
+            "name": "商店买药(J)",
+            "entry": "商店"
+        },
+        {
+            "name": "竞技场(J)",
+            "entry": "竞技场"
+        },
+        {
+            "name": "主线扫荡预设(J)",
+            "entry": "主线扫荡预设",
+            "option": [
+                "选择预设扫荡"
+            ]
+        },
+        {
+            "name": "公主骑士属性等级",
+            "entry": "公主骑士"
+        },
+        {
+            "name": "领取礼物邮件(J)",
+            "entry": "礼物"
+        },
+        {
+            "name": "宝石买体力(J)",
+            "entry": "宝石买体力",
+            "option": [
+                "买体力数量"
+            ]
+        },
+        {
+            "name": "领取日常奖励(J)",
+            "entry": "领取任务奖励"
+        },
+        {
+            "name": "遗迹/圣迹(J)",
+            "entry": "遗迹"
+        },
+        {
+            "name": "神殿(J)",
+            "entry": "神殿"
+        },
+        {
+            "name": "探险领取",
+            "entry": "每日探险"
+        },
+        {
+            "name":"探险缩短时间(J)",
+            "entry":"探险加速",
+            "option":[
+                "选择加速的队伍"
+            ]
+        },
+        {
+            "name": "探险事件",
+            "entry": "探险事件",
+            "option": [
+                "概率事件选择"
+            ]
+        },
+        {
+            "name": "-----挂机或关闭游戏(J)-----",
+            "entry": "游戏状态",
+            "option": [
+                "游戏状态"
+            ]
+        },
+        {
+            "name": "巡游",
+            "entry": "巡游",
+            "option": [
+                "一次投骰子数量",
+                "是否每次掷骰子前使用料理"
+            ]
+        },
+        {
+            "name": "地下城角色碎片(J)",
+            "entry": "商店买地下城角色碎片",
+            "option": [
+                "地下城角色碎片购买项",
+                "地下城角色碎片购买项2",
+                "地下城角色碎片购买项3",
+                "刷新次数"
+            ]
+        },
+        {
+            "name": "竞技场角色碎片(J)",
+            "entry": "商店买竞技场角色碎片",
+            "option": [
+                "竞技场角色碎片购买项",
+                "竞技场角色碎片购买项2",
+                "竞技场角色碎片购买项3",
+                "竞技场商店刷新次数"
+            ]
+        },
+        {
+            "name": "公主竞技场角色碎片(J)",
+            "entry": "商店买公主竞技场角色碎片",
+            "option": [
+                "公主竞技场角色碎片购买项",
+                "公主竞技场角色碎片购买项2",
+                "公主竞技场角色碎片购买项3",
+                "公主竞技场商店刷新次数"
+            ]
+        },
+        {
+            "name":"角色全部强化",
+            "entry":"全部强化",
+            "option":[
+                "强化完角色LV后执行操作"
+            ]
+        },
+        {
+            "name": "喂蛋糕好感(J)",
+            "entry": "好感"
+        },
+        {
+            "name": "角色剧情(J,R)",
+            "entry": "角色剧情"
+        },
+        {
+            "name": "单个活动剧情(J)",
+            "entry": "活动剧情x",
+            "option":[
+                "选择活动剧情位置"
+            ]
+        },
+        {
+            "name":"全部活动剧情(J)",
+            "entry":"活动剧情All"
+        },
+        {
+            "name": "露娜塔剧情(J)",
+            "entry": "露娜塔剧情"
+        },
+        {
+            "name": "公主生日剧情",
+            "entry": "生日剧情"
+        },
+        {
+            "name": "主线剧情(J)",
+            "entry": "主线剧情"
+        },
+        {
+            "name": "小屋Like(需在小屋页面)",
+            "entry": "公会小屋Like"
+        },
+        {
+            "name": "小工具-角色倒下暂停(J)",
+            "entry": "小工具_角色存活",
+            "option": [
+                "识别频率"
+            ]
+        },
+        {
+            "name": "小工具-剩余时间暂停(J)",
+            "entry": "小工具_剩余时间"
+        },
+        {
+            "name": "(暂移除)当期/复刻活动日常",
+            "entry": "日常活动"
+        },
+        {
+            "name": "(暂移除)刷当期/复刻活动",
+            "entry": "自动活动",
+            "option": [
+                "当期选择队伍编组",
+                "当期选择当前编组的第几个队伍"
+            ]
+        },
+        {
+            "name": "(暂移除)刷支线活动",
+            "entry": "支线活动",
+            "option": [
+                "选择队伍编组",
+                "选择当前编组的第几个队伍"
+            ]
+        },
+        {
+            "name": "(暂移除)露娜塔日常扫荡",
+            "entry": "露娜塔日常扫荡"
+        }
+    ],
+    "option": {
+        "选择加速器": {
+            "cases": [
+                {
+                    "name": "UU",
+                    "pipeline_override": {
+                        "加速器": {
+                            "recognition": "DirectHit",
+                            "action": "StartApp",
+                            "package": "com.netease.uu"
+                        }
+                    }
+                },
+                {
+                    "name": "BiuBiu",
+                    "pipeline_override": {
+                        "加速器": {
+                            "recognition": "DirectHit",
+                            "action": "StartApp",
+                            "package": "com.njh.biubiu"
+                        }
+                    }
+                },
+                {
+                    "name": "Surfboard",
+                    "pipeline_override": {
+                        "加速器": {
+                            "recognition": "DirectHit",
+                            "action": "StartApp",
+                            "package": "com.getsurfboard"
+                        }
+                    }
+                },
+                {
+                    "name": "ClashMeta",
+                    "pipeline_override": {
+                        "加速器": {
+                            "recognition": "DirectHit",
+                            "action": "StartApp",
+                            "package": "com.github.metacubex.clash.meta"
+                        }
+                    }
+                }
+            ]
+        },
+        "选择服务器": {
+            "cases": [
+                {
+                    "name": "繁中",
+                    "pipeline_override": {
+                        "选择服务器": {
+                            "recognition": "DirectHit",
+                            "action": "StartApp",
+                            "package": "tw.sonet.princessconnect/jp.co.cygames.activity.OverrideUnityActivity"
+                        }
+                    }
+                },
+                {
+                    "name": "简中",
+                    "pipeline_override": {
+                        "选择服务器": {
+                            "recognition": "DirectHit",
+                            "action": "StartApp",
+                            "package": "com.bilibili.priconne"
+                        }
+                    }
+                }
+            ]
+        },
+        "是否消耗宝石买mana": {
+            "cases": [
+                {
+                    "name": "不消耗宝石",
+                    "pipeline_override": {
+                        "购买mana是否花费钻石": {
+                            "action": "Click",
+                            "target": [
+                                539,
+                                500,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "消耗宝石",
+                    "pipeline_override": {
+                        "购买mana是否花费钻石": {
+                            "action": "Click",
+                            "target": [
+                                812,
+                                500,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "买体力数量": {
+            "cases": [
+                {
+                    "name": "买1次",
+                    "pipeline_override": {
+                        "购买体力数量": {
+                            "action": "Click",
+                            "target": [
+                                640,
+                                169,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "买2次",
+                    "pipeline_override": {
+                        "购买体力数量": {
+                            "action": "Click",
+                            "target": [
+                                647,
+                                230,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "买3次",
+                    "pipeline_override": {
+                        "购买体力数量": {
+                            "action": "Click",
+                            "target": [
+                                640,
+                                298,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "买4次",
+                    "pipeline_override": {
+                        "购买体力数量": {
+                            "action": "Click",
+                            "target": [
+                                647,
+                                367,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "买5次",
+                    "pipeline_override": {
+                        "购买体力数量": {
+                            "action": "Click",
+                            "target": [
+                                640,
+                                432,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "买6次",
+                    "pipeline_override": {
+                        "购买体力数量": {
+                            "action": "Click",
+                            "target": [
+                                647,
+                                507,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "选择预设扫荡": {
+            "cases": [
+                {
+                    "name": "预设1",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                151,
+                                111,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "预设2",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                316,
+                                111,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "预设3",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                471,
+                                111,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "预设4",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                618,
+                                115,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "预设5",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                787,
+                                108,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "预设6",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                945,
+                                111,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "预设7",
+                    "pipeline_override": {
+                        "主线冒险扫荡预设队伍": {
+                            "action": "Click",
+                            "post_delay": 1000,
+                            "target": [
+                                1082,
+                                108,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "一次投骰子数量": {
+            "cases": [
+                {
+                    "name": "一次一个",
+                    "pipeline_override": {
+                        "骰子次数判断": {
+                            "recognition": "TemplateMatch",
+                            "template": "掷骰子.png"
+                        }
+                    }
+                },
+                {
+                    "name": "三个一起",
+                    "pipeline_override": {
+                        "骰子次数判断": {
+                            "recognition": "TemplateMatch",
+                            "template": "3个骰子.png"
+                        }
+                    }
+                }
+            ]
+        },
+        "是否每次掷骰子前使用料理": {
+            "cases": [
+                {
+                    "name": "不使用料理",
+                    "pipeline_override": {
+                        "吃料理": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "使用料理",
+                    "pipeline_override": {
+                        "吃料理": {
+                            "action": "Click"
+                        }
+                    }
+                }
+            ]
+        },
+        "概率事件选择": {
+            "cases": [
+                {
+                    "name": "100%获得",
+                    "pipeline_override": {
+                        "怪鸟来袭选项": {
+                            "recognition": "TemplateMatch",
+                            "template": "概率获得100.png"
+                        }
+                    }
+                },
+                {
+                    "name": "概率获得",
+                    "pipeline_override": {
+                        "怪鸟来袭选项": {
+                            "recognition": "TemplateMatch",
+                            "template": "概率事件70.png"
+                        }
+                    }
+                }
+            ]
+        },
+        "游戏状态": {
+            "cases": [
+                {
+                    "name": "主页挂机",
+                    "pipeline_override": {
+                        "确定游戏状态": {
+                            "recognition": "TemplateMatch",
+                            "template": "主页挂机.png",
+                            "action": "Click"
+                        },
+                        "当前游戏状态": {
+                            "action": "StopTask"
+                        }
+                    }
+                },
+                {
+                    "name": "关闭游戏",
+                    "pipeline_override": {
+                        "确定游戏状态": {
+                            "action": "Key",
+                            "key": 111
+                        },
+                        "当前游戏状态": {
+                            "roi": [
+                                352,
+                                450,
+                                600,
+                                120
+                            ],
+                            "recognition": "OCR",
+                            "template": [
+                                "OK",
+                                "确认"
+                            ],
+                            "action": "Click"
+                        }
+                    }
+                }
+            ]
+        },
+        "地下城角色碎片购买项": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "杏奈_海盗",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold":0.9,
+                            "recognition":"TemplateMatch",
+                            "template":"role\\杏奈_海盗.png",
+                            "action":"Click",
+                            "target_offset":[70,-12,0,0]
+                        }
+                    }
+                },
+                {
+                    "name": "玲奈_万圣节",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\玲奈_万圣节.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "克萝依_圣学祭",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\克萝依_圣学祭.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "步末",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\步末.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "茉莉",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\茉莉.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "美里",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\美里.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "铃",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\铃.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "凯露",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\凯露.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "由加利",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\由加利.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "茜里",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\茜里.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "空花",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\空花.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "深月",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\深月.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "真步",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\真步.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "望",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\望.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "地下城角色碎片购买项2": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "杏奈_海盗",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold":0.9,
+                            "recognition":"TemplateMatch",
+                            "template":"role\\杏奈_海盗.png",
+                            "action":"Click",
+                            "target_offset":[70,-12,0,0]
+                        }
+                    }
+                },
+                {
+                    "name": "玲奈_万圣节",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\玲奈_万圣节.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "克萝依_圣学祭",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\克萝依_圣学祭.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "步末",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\步末.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "茉莉",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\茉莉.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "美里",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\美里.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "铃",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\铃.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "凯露",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\凯露.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "由加利",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\由加利.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "茜里",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\茜里.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "空花",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\空花.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "深月",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\深月.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "真步",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\真步.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "望",
+                    "pipeline_override": {
+                        "识别地下城碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\望.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "地下城角色碎片购买项3": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "杏奈_海盗",
+                    "pipeline_override": {
+                        "识别地下城碎片": {
+                            "threshold":0.9,
+                            "recognition":"TemplateMatch",
+                            "template":"role\\杏奈_海盗.png",
+                            "action":"Click",
+                            "target_offset":[70,-12,0,0]
+                        }
+                    }
+                },
+                {
+                    "name": "玲奈_万圣节",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\玲奈_万圣节.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "克萝依_圣学祭",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\克萝依_圣学祭.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "步末",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\步末.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "茉莉",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\茉莉.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "美里",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\美里.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "铃",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\铃.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "凯露",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\凯露.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "由加利",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\由加利.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "茜里",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\茜里.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "空花",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\空花.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "深月",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\深月.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "真步",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\真步.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "望",
+                    "pipeline_override": {
+                        "识别地下城碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\望.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "竞技场角色碎片购买项": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "璃乃_圣诞节",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\璃乃_圣诞节_妹妹真可爱.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "碧_工作服",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\碧_工作服.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "七七香",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\七七香.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "铃音",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\铃音.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "日和",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\日和.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "未奏希",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\未奏希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "珠希",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\珠希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "莫妮卡",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\莫妮卡.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "璃乃",
+                    "pipeline_override": {
+                        "识别竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\璃乃_好可爱.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "竞技场角色碎片购买项2": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "璃乃_圣诞节",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\璃乃_圣诞节_妹妹真可爱.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "碧_工作服",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\碧_工作服.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "七七香",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\七七香.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "铃音",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\铃音.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "日和",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\日和.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "未奏希",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\未奏希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "珠希",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\珠希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "莫妮卡",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\莫妮卡.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "璃乃",
+                    "pipeline_override": {
+                        "识别竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\璃乃_好可爱.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "竞技场角色碎片购买项3": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "璃乃_圣诞节",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\璃乃_圣诞节_妹妹真可爱.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "碧_工作服",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\碧_工作服.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "七七香",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\七七香.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "铃音",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\铃音.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "日和",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\日和.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "未奏希",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\未奏希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "珠希",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\珠希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "莫妮卡",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\莫妮卡.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "璃乃",
+                    "pipeline_override": {
+                        "识别竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\璃乃_好可爱.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "公主竞技场角色碎片购买项": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "千歌_夏日",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\千歌_夏日.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "真琴_灰姑娘",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\真琴_灰姑娘.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "坊希",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\坊希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "玲奈",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\玲奈.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "宫子",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\宫子.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "香织",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\香织.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "初音",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\初音.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "杏奈",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\杏奈.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "公主竞技场角色碎片购买项2": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "千歌_夏日",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\千歌_夏日.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "真琴_灰姑娘",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\真琴_灰姑娘.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "坊希",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\坊希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "玲奈",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\玲奈.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "宫子",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\宫子.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "香织",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\香织.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "初音",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\初音.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "杏奈",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片2": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\杏奈.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "公主竞技场角色碎片购买项3": {
+            "cases": [
+                {
+                    "name": "不额外购买",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "action": "DoNothing"
+                        }
+                    }
+                },
+                {
+                    "name": "千歌_夏日",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\千歌_夏日.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "真琴_灰姑娘",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\真琴_灰姑娘.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "坊希",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\坊希.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "玲奈",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\玲奈.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "宫子",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\宫子.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "香织",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\香织.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "初音",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\初音.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "杏奈",
+                    "pipeline_override": {
+                        "识别公主竞技场碎片3": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "role\\杏奈.png",
+                            "action": "Click",
+                            "target_offset": [
+                                70,
+                                -12,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "刷新次数": {
+            "cases": [
+                {
+                    "name": "不刷新碎片购买",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用10立即更新.png",
+                                "JZ\\jz用10立即更新.png"
+                            ],
+                            "threshold": 0.9
+                        },
+                        "不刷新碎片": {}
+                    }
+                },
+                {
+                    "name": "刷新到50停止刷新",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用50立即更新.png",
+                                "JZ\\jz用50立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到100停止刷新",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用100立即更新.png",
+                                "JZ\\jz用100立即刷新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到200停止刷新",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用200立即更新.png",
+                                "JZ\\jz用200立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到200停止刷新",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用200立即更新.png",
+                                "JZ\\jz用200立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到500停止刷新",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用500立即更新.png",
+                                "JZ\\jz用500立即刷新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "无限刷新",
+                    "pipeline_override": {
+                        "碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "商店.png"
+                        }
+                    }
+                }
+            ]
+        },
+        "竞技场商店刷新次数": {
+            "cases": [
+                {
+                    "name": "不刷新碎片购买",
+                    "pipeline_override": {
+                        "竞技场碎片刷新次数": {
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用10立即更新.png",
+                                "JZ\\jz用10立即更新.png"
+                            ],
+                            "threshold": 0.9
+                        },
+                        "不刷新竞技场碎片": {}
+                    }
+                },
+                {
+                    "name": "刷新到50停止刷新",
+                    "pipeline_override": {
+                        "竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用50立即更新.png",
+                                "JZ\\jz用50立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到100停止刷新",
+                    "pipeline_override": {
+                        "竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用100立即更新.png",
+                                "JZ\\jz用100立即刷新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到200停止刷新",
+                    "pipeline_override": {
+                        "竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用200立即更新.png",
+                                "JZ\\jz用200立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到500停止刷新",
+                    "pipeline_override": {
+                        "竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用500立即更新.png",
+                                "JZ\\jz用500立即刷新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "无限刷新",
+                    "pipeline_override": {
+                        "竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "商店.png"
+                        }
+                    }
+                }
+            ]
+        },
+        "公主竞技场商店刷新次数": {
+            "cases": [
+                {
+                    "name": "不刷新碎片购买",
+                    "pipeline_override": {
+                        "公主竞技场碎片刷新次数": {
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用10立即更新.png",
+                                "JZ\\jz用10立即更新.png"
+                            ],
+                            "threshold": 0.9
+                        },
+                        "不刷新公主竞技场碎片": {}
+                    }
+                },
+                {
+                    "name": "刷新到50停止刷新",
+                    "pipeline_override": {
+                        "公主竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用50立即更新.png",
+                                "JZ\\jz用50立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到100停止刷新",
+                    "pipeline_override": {
+                        "公主竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用100立即更新.png",
+                                "JZ\\jz用100立即刷新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到200停止刷新",
+                    "pipeline_override": {
+                        "公主竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用200立即更新.png",
+                                "JZ\\jz用200立即更新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "刷新到500停止刷新",
+                    "pipeline_override": {
+                        "公主竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": [
+                                "用500立即更新.png",
+                                "JZ\\jz用500立即刷新.png"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "无限刷新",
+                    "pipeline_override": {
+                        "公主竞技场碎片刷新次数": {
+                            "threshold": 0.9,
+                            "recognition": "TemplateMatch",
+                            "template": "商店.png"
+                        }
+                    }
+                }
+            ]
+        },
+        "选择队伍编组": {
+            "cases": [
+                {
+                    "name": "编组1",
+                    "pipeline_override": {
+                        "选择支线活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                172,
+                                115,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组2",
+                    "pipeline_override": {
+                        "选择支线活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                355,
+                                118,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组3",
+                    "pipeline_override": {
+                        "选择支线活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                546,
+                                126,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组4",
+                    "pipeline_override": {
+                        "选择支线活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                744,
+                                122,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组5",
+                    "pipeline_override": {
+                        "选择支线活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                906,
+                                122,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "选择当前编组的第几个队伍": {
+            "cases": [
+                {
+                    "name": "选择第1个队伍",
+                    "pipeline_override": {
+                        "呼叫支线活动编组": {
+                            "action": "Click",
+                            "target": [
+                                1064,
+                                288,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "选择第2个队伍",
+                    "pipeline_override": {
+                        "呼叫支线活动编组": {
+                            "action": "Click",
+                            "target": [
+                                1067,
+                                439,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "当期选择队伍编组": {
+            "cases": [
+                {
+                    "name": "编组1",
+                    "pipeline_override": {
+                        "选择当期活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                172,
+                                115,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组2",
+                    "pipeline_override": {
+                        "选择当期活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                355,
+                                118,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组3",
+                    "pipeline_override": {
+                        "选择当期活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                546,
+                                126,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组4",
+                    "pipeline_override": {
+                        "选择当期活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                744,
+                                122,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "编组5",
+                    "pipeline_override": {
+                        "选择当期活动编组2": {
+                            "action": "Click",
+                            "target": [
+                                906,
+                                122,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "当期选择当前编组的第几个队伍": {
+            "cases": [
+                {
+                    "name": "选择第1个队伍",
+                    "pipeline_override": {
+                        "呼叫当期活动编组": {
+                            "action": "Click",
+                            "target": [
+                                1064,
+                                288,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "选择第2个队伍",
+                    "pipeline_override": {
+                        "呼叫当期活动编组": {
+                            "action": "Click",
+                            "target": [
+                                1067,
+                                439,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "选择活动剧情位置": {
+            "cases": [
+                {
+                    "name": "第1个",
+                    "pipeline_override": {
+                        "选中活动位置": {
+                            "action": "Click",
+                            "target": [
+                                791,
+                                172,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "第2个",
+                    "pipeline_override": {
+                        "选中活动位置": {
+                            "action": "Click",
+                            "target": [
+                                949,
+                                334,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "第3个",
+                    "pipeline_override": {
+                        "选中活动位置": {
+                            "action": "Click",
+                            "target": [
+                                945,
+                                475,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "第4个",
+                    "pipeline_override": {
+                        "选中活动位置": {
+                            "action": "Click",
+                            "target": [
+                                924,
+                                604,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "识别频率": {
+            "cases": [
+                {
+                    "name": "每3秒识别一次(推荐)",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 3000
+                        }
+                    }
+                },
+                {
+                    "name": "每5秒识别一次",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 5000
+                        }
+                    }
+                },
+                {
+                    "name": "每4秒识别一次",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 4000
+                        }
+                    }
+                },
+                {
+                    "name": "每2秒识别一次",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 2000
+                        }
+                    }
+                },
+                {
+                    "name": "每1.5秒识别一次",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 1500
+                        }
+                    }
+                },
+                {
+                    "name": "每1秒识别一次",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 1000
+                        }
+                    }
+                },
+                {
+                    "name": "每0.5秒识别一次",
+                    "pipeline_override": {
+                        "灰度识别": {
+                            "rate_limit": 500
+                        }
+                    }
+                }
+            ]
+        },
+        "选择加速的队伍":{
+            "cases":[
+                {
+                    "name":"加速第1个队伍",
+                    "pipeline_override":{
+                        "探险加速的队伍":{
+                            "target":[970,219,0,0]
+                        }
+                    }
+                },
+                {
+                    "name":"加速第2个队伍",
+                    "pipeline_override":{
+                        "探险加速的队伍":{
+                            "target":[981,439,0,0]
+                        }
+                    }
+                }
+            ]
+        },
+        "强化完角色LV后执行操作":{
+            "cases":[
+                {
+                    "name":"强化Rank",
+                    "pipeline_override":{
+                        "一键强化Rank":{
+                            "target":[125,558,0,0]
+                        }
+                    }
+                },
+                {
+                    "name":"不继续强化",
+                    "pipeline_override":{
+                        "一键强化Rank":{
+                            "target":[488,640,0,0]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
